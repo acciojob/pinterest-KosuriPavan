@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.image{
+	object-fit:cover;
+	widht:320px;
+	height:320px;
+}
+button{
+background:red;
+color:white;
+border-radius:5px;
+padding:5px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+
+.inside{
+	align-items:center;
+	text-align:center
+}
